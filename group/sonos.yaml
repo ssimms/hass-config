@@ -1,0 +1,6 @@
+name: Sonos
+icon: mdi:speaker
+entities:
+  - media_player.bathroom
+  - media_player.kitchen
+  - media_player.living_room

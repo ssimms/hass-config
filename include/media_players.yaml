@@ -1,0 +1,13 @@
+- platform: sonos
+
+- platform: plex
+
+- platform: cast
+  host: 192.168.16.143
+
+- platform: cast
+  host: 192.168.16.144
+
+- platform: gpmdp
+  host: 192.168.16.103
+  name: "Google Play: Office"

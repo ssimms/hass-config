@@ -1,0 +1,6 @@
+name: Family
+view: yes
+entities:
+  - binary_sensor.ups_online
+  - sensor.ups_time_left
+  - media_player.family_room

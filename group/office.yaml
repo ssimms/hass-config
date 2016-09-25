@@ -1,0 +1,15 @@
+name: Office
+view: yes
+entities:
+  - light.closet
+  - light.linear_lb60z1_dimmable_led_light_bulb_level_2
+  - light.linear_lb60z1_dimmable_led_light_bulb_level_3
+  - media_player.office
+  - media_player.google_play_office
+  - scene.office_off
+  - scene.office_on
+  # - automation.minimote_office_1
+  # - automation.minimote_office_1_long
+  # - automation.minimote_office_3
+  # - automation.minimote_office_3_long
+  - switch.ge_12721_lighting_control_duplex_receptacle_switch_8

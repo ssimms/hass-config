@@ -1,0 +1,10 @@
+name: office_off
+entities:
+  light.closet:
+    state: off
+  light.linear_lb60z1_dimmable_led_light_bulb_level_3:
+    state: off
+  light.linear_lb60z1_dimmable_led_light_bulb_level_2:
+    state: off
+  switch.ge_12721_lighting_control_duplex_receptacle_switch_8:
+    state: off

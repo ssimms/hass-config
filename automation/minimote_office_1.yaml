@@ -1,0 +1,10 @@
+alias: "Minimote: Office 1"
+trigger:
+  platform: event
+  event_type: zwave.scene_activated
+  event_data:
+    object_id: __9
+    scene_id: 1
+action:
+  service: scene.turn_on
+  entity_id: scene.office_on

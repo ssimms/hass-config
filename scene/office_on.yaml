@@ -1,0 +1,13 @@
+name: office_on
+entities:
+  light.closet:
+    state: on
+    brightness: 255
+  light.linear_lb60z1_dimmable_led_light_bulb_level_3:
+    state: on
+    brightness: 255
+  light.linear_lb60z1_dimmable_led_light_bulb_level_2:
+    state: on
+    brightness: 255
+  switch.ge_12721_lighting_control_duplex_receptacle_switch_8:
+    state: on

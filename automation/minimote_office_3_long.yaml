@@ -1,0 +1,10 @@
+alias: "Minimote: Office 3 (Long)"
+trigger:
+  platform: event
+  event_type: zwave.scene_activated
+  event_data:
+    object_id: __9
+    scene_id: 6
+action:
+  service: light.turn_off
+  entity_id: light.bedside_steve

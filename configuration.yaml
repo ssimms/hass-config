@@ -1,0 +1,52 @@
+homeassistant:
+  name: Home
+  latitude:  !secret home_latitude
+  longitude: !secret home_longitude
+  elevation: 293
+  unit_system: imperial
+  time_zone: America/New_York
+  customize: !include include/customizations.yaml
+
+automation:     !include_dir_list  automation/
+scene:          !include_dir_list  scene/
+group:          !include_dir_named group/
+device_tracker: !include include/devices.yaml
+media_player:   !include include/media_players.yaml
+sensor:         !include include/sensors.yaml
+zone:           !include include/zones.yaml
+                          
+frontend:
+http:
+history:
+logbook:
+# discovery:
+# conversation:
+updater:
+
+apcupsd:
+sun:
+
+binary_sensor:
+  - platform: apcupsd
+    name: UPS Online
+
+light:
+  platform: hue
+  host: 192.168.16.161
+
+mqtt:
+  broker:   127.0.0.1
+  port:     1883
+  username: hass
+  password: !secret mqtt_password
+
+notify:
+  name:     pushover
+  platform: pushover
+  api_key:  !secret pushover_api_key
+  user_key: !secret pushover_user_key
+
+zwave:
+  usb_path: /dev/serial/by-id/usb-0658_0200-if00
+  config_path: /var/lib/hass/lib/python3.5/site-packages/libopenzwave-0.3.1-py3.5-linux-x86_64.egg/config
+  polling_interval: 60000

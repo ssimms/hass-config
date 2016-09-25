@@ -1,0 +1,8 @@
+name: Bedroom
+view: yes
+entities:
+  - automation.bedside_lamp_at_sunset
+  - scene.bedside_steve_full
+  - scene.bedside_steve_dim
+  - light.bedside_steve
+  - media_player.bathroom

@@ -1,0 +1,4 @@
+name: Chromecast
+entities:
+  - media_player.family_room
+  - media_player.office

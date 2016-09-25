@@ -1,0 +1,42 @@
+- platform: yr
+
+- platform: forecast
+  api_key: !secret forecast_api_key
+  monitored_conditions:
+    - temperature
+    - temperature_max
+    - temperature_min
+    - humidity
+#   - summary
+#   - icon
+#   - nearest_storm_distance
+#   - nearest_storm_bearing
+#   - precip_type
+#   - precip_intensity
+#   - precip_probability
+#   - apparent_temperature
+#   - dew_point
+#   - wind_speed
+#   - wind_bearing
+#   - cloud_cover
+#   - pressure
+#   - visibility
+#   - ozone
+#   - minutely_summary
+#   - hourly_summary
+#   - daily_summary
+#   - apparent_temperature_max
+#   - apparent_temperature_min
+#   - precip_intensity_max
+
+- platform: apcupsd
+  resources:
+    - bcharge
+    - loadpct
+    - timeleft
+    - tonbatt
+
+#- platform: plex
+#  username: Steve Simms
+#  password: !secret plex_password
+#  server: Simms

@@ -1,0 +1,12 @@
+alias: "Bedside lamp at sunset"
+trigger:
+  platform: sun
+  event: sunset
+  offset: "+00:42:00"
+condition:
+  condition: state
+  entity_id: device_tracker.owntrackssteve_owntracksstevesimmscloud
+  state: "home"
+action:
+  service: scene.turn_on
+  entity_id: scene.bedside_steve_dim

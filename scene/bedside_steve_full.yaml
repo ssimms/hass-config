@@ -1,0 +1,5 @@
+name: bedside_steve_full
+entities:
+  light.bedside_steve:
+    state: on
+    brightness: 255

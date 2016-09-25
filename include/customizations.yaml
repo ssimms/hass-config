@@ -1,0 +1,59 @@
+# Devices
+
+# device_tracker.christinephonehsd1nhcomcastnet:
+#   friendly_name: Christine
+
+# device_tracker.owntrackssteve_owntracksstevesimmscloud:
+#  friendly_name: Steve
+
+# Lights
+
+light.linear_lb60z1_dimmable_led_light_bulb_level_2:
+  friendly_name: Right Bookshelf
+
+light.linear_lb60z1_dimmable_led_light_bulb_level_3:
+  friendly_name: Left Bookshelf
+
+light.aeotec_zw098_led_bulb_level_4:
+  friendly_name: Color Bulb
+
+# Media Players
+
+media_player.family_room:
+  friendly_name: "Chromecast: Family Room"
+
+media_player.office:
+  friendly_name: "Chromecast: Office"
+
+# Scenes
+
+scene.bedside_steve_dim:
+  friendly_name: "Bedside: Dim"
+
+scene.bedside_steve_full:
+  friendly_name: "Bedside: Bright"
+
+scene.office_on:
+  friendly_name: "Office: On"
+
+scene.office_off:
+  friendly_name: "Office: Off"
+
+# Sensors
+
+sensor.forecastio_daily_high_temperature:
+  friendly_name: "Today's High"
+
+sensor.forecastio_daily_low_temperature:
+  friendly_name: "Today's Low"
+
+sensor.forecastio_temperature:
+  friendly_name: Current Temp
+
+sensor.forecastio_humidity:
+  friendly_name: Current Humidity
+
+# Switches
+
+switch.ge_12721_lighting_control_duplex_receptacle_switch_8:
+  friendly_name: Air Filter

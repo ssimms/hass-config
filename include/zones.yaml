@@ -1,0 +1,10 @@
+- name: Work
+  latitude: 43.6275
+  longitude: -72.3171
+  icon: mdi:domain
+
+- name: VBC
+  latitude: 43.6462
+  longitude: -72.33185
+  radius: 50
+  icon: mdi:church
