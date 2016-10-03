@@ -1,0 +1,11 @@
+alias: "Minimote: Office 4"
+trigger:
+  platform: event
+  event_type: zwave.scene_activated
+  event_data:
+    object_id: __9
+    scene_id: 7
+action:
+  service: switch.turn_on
+  entity_id: switch.ge_12721_lighting_control_duplex_receptacle_switch_8
+
