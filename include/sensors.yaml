@@ -40,3 +40,6 @@
 #  username: Steve Simms
 #  password: !secret plex_password
 #  server: Simms
+
+- platform: time_date
+  display_options: time
