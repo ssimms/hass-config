@@ -6,6 +6,6 @@ trigger:
     object_id: __9
     scene_id: 7
 action:
-  service: switch.turn_on
+  service: switch.toggle
   entity_id: switch.ge_12721_lighting_control_duplex_receptacle_switch_8
 
