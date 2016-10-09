@@ -1,0 +1,19 @@
+alias: "Sonos Tracker"
+trigger:
+  platform: state
+  entity_id:
+    - media_player.bathroom
+    - media_player.kitchen
+    - media_player.living_room
+condition:
+  condition: and
+  conditions:
+    - condition: template
+      value_template: "{{ trigger.to_state.state == 'playing' }}"
+    - condition: template
+      value_template: "{{ trigger.from_state.attributes.media_title != trigger.to_state.attributes.media_title }}"
+action:
+  service: mqtt.publish
+  data_template:
+    topic: "sonos/now_playing"
+    payload: "{{ trigger.to_state.attributes.media_title }}"
