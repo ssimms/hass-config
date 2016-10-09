@@ -6,6 +6,5 @@ trigger:
     object_id: __9
     scene_id: 4
 action:
-  service: light.turn_on
-  entity_id: light.closet
-
+  service: light.toggle
+  entity_id: light.linear_lb60z1_dimmable_led_light_bulb_level_2

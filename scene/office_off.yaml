@@ -1,6 +1,10 @@
 name: office_off
 entities:
-  light.closet:
+  light.office_accent:
+    state: off
+  light.office_left_bookshelf:
+    state: off
+  light.office_right_bookshelf:
     state: off
   light.linear_lb60z1_dimmable_led_light_bulb_level_3:
     state: off

@@ -9,13 +9,13 @@
 # Lights
 
 light.linear_lb60z1_dimmable_led_light_bulb_level_2:
-  friendly_name: Right Bookshelf
+  friendly_name: Office Closet
 
 light.linear_lb60z1_dimmable_led_light_bulb_level_3:
-  friendly_name: Left Bookshelf
+  friendly_name: Office Task Lamp
 
 light.aeotec_zw098_led_bulb_level_4:
-  friendly_name: Color Bulb
+  friendly_name: Office Floor Lamp
 
 # Media Players
 
@@ -38,6 +38,9 @@ scene.office_on:
 
 scene.office_off:
   friendly_name: "Office: Off"
+
+scene.office_relax:
+  friendly_name: "Office: Relax"
 
 # Sensors
 

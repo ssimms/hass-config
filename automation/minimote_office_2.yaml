@@ -6,7 +6,7 @@ trigger:
     object_id: __9
     scene_id: 3
 action:
-  service: light.turn_on
+  service: light.toggle
   entity_id:
-    - light.linear_lb60z1_dimmable_led_light_bulb_level_2
-    - light.linear_lb60z1_dimmable_led_light_bulb_level_3
+    - light.office_left_bookshelf
+    - light.office_right_bookshelf

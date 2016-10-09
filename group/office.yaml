@@ -1,15 +1,15 @@
 name: Office
 view: yes
 entities:
-  - light.closet
+  - light.office_accent
+  - light.office_left_bookshelf
+  - light.office_right_bookshelf
   - light.linear_lb60z1_dimmable_led_light_bulb_level_2
   - light.linear_lb60z1_dimmable_led_light_bulb_level_3
+  - light.aeotec_zw098_led_bulb_level_4
   - media_player.office
   - media_player.google_play_office
   - scene.office_off
   - scene.office_on
-  # - automation.minimote_office_1
-  # - automation.minimote_office_1_long
-  # - automation.minimote_office_3
-  # - automation.minimote_office_3_long
+  - scene.office_relax
   - switch.ge_12721_lighting_control_duplex_receptacle_switch_8

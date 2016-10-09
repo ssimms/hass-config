@@ -7,4 +7,5 @@ trigger:
     scene_id: 5
 action:
   service: scene.turn_on
-  entity_id: scene.bedside_steve_dim
+  entity_id: scene.office_on
+

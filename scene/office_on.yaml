@@ -1,8 +1,19 @@
 name: office_on
 entities:
-  light.closet:
+  light.office_left_bookshelf:
     state: on
     brightness: 255
+    color_temp: 246
+  light.office_right_bookshelf:
+    state: on
+    brightness: 255
+    color_temp: 246
+  light.office_accent:
+    state: on
+    brightness: 255
+    color_temp: 397
+    rgb_color: 255, 194, 105
+    xy_color: 0.4746, 0.4133
   light.linear_lb60z1_dimmable_led_light_bulb_level_3:
     state: on
     brightness: 255
