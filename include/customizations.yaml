@@ -1,12 +1,12 @@
 # Lights
 
-light.linear_lb60z1_dimmable_led_light_bulb_level_2:
+light.linear_lb60z1_dimmable_led_light_bulb_level_2_0:
   friendly_name: Office Closet
 
-light.linear_lb60z1_dimmable_led_light_bulb_level_3:
+light.linear_lb60z1_dimmable_led_light_bulb_level_3_0:
   friendly_name: Office Task Lamp
 
-light.aeotec_zw098_led_bulb_level_4:
+light.aeotec_zw098_led_bulb_level_4_0:
   friendly_name: Office Floor Lamp
 
 # Media Players
@@ -36,20 +36,20 @@ scene.office_relax:
 
 # Sensors
 
-sensor.forecastio_daily_high_temperature:
+sensor.dark_sky_daily_high_temperature:
   friendly_name: "Today's High"
 
-sensor.forecastio_daily_low_temperature:
+sensor.dark_sky_daily_low_temperature:
   friendly_name: "Today's Low"
 
-sensor.forecastio_temperature:
+sensor.dark_sky_temperature:
   friendly_name: Current Temp
 
-sensor.forecastio_humidity:
+sensor.dark_sky_humidity:
   friendly_name: Current Humidity
 
 # Switches
 
-switch.ge_12721_lighting_control_duplex_receptacle_switch_8:
+switch.ge_12721_lighting_control_duplex_receptacle_switch_8_0:
   friendly_name: Air Filter
   icon: mdi:weather-windy

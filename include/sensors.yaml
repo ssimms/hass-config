@@ -1,7 +1,7 @@
 - platform: yr
 
-- platform: forecast
-  api_key: !secret forecast_api_key
+- platform: darksky
+  api_key: !secret darksky_api_key
   monitored_conditions:
     - temperature
     - temperature_max

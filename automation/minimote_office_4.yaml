@@ -7,5 +7,5 @@ trigger:
     scene_id: 7
 action:
   service: switch.toggle
-  entity_id: switch.ge_12721_lighting_control_duplex_receptacle_switch_8
+  entity_id: switch.ge_12721_lighting_control_duplex_receptacle_switch_8_0
 
