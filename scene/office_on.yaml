@@ -20,5 +20,5 @@ entities:
   light.linear_lb60z1_dimmable_led_light_bulb_level_2:
     state: on
     brightness: 255
-  switch.ge_12721_lighting_control_duplex_receptacle_switch_8:
+  input_boolean.filter_maybe:
     state: on

@@ -11,6 +11,7 @@ automation:     !include_dir_list  automation/
 scene:          !include_dir_list  scene/
 group:          !include_dir_named group/
 device_tracker: !include include/devices.yaml
+input_boolean:  !include include/input_booleans.yaml
 media_player:   !include include/media_players.yaml
 sensor:         !include include/sensors.yaml
 zone:           !include include/zones.yaml

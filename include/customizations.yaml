@@ -52,3 +52,4 @@ sensor.forecastio_humidity:
 
 switch.ge_12721_lighting_control_duplex_receptacle_switch_8:
   friendly_name: Air Filter
+  icon: mdi:weather-windy
