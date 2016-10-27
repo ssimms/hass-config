@@ -20,6 +20,9 @@ frontend:
 http:
 history:
 logbook:
+  exclude:
+    entities:
+      - sensor.time
 # discovery:
 # conversation:
 # updater:
