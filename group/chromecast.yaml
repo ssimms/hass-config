@@ -1,4 +1,4 @@
 name: Chromecast
 entities:
   - media_player.family_room
-  - media_player.office
+  - media_player.office_chromecast
