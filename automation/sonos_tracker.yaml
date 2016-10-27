@@ -12,9 +12,11 @@ condition:
     - condition: template
       value_template: "{{ trigger.to_state.state == 'playing' }}"
     - condition: template
+      value_template: "{{ trigger.to_state.attributes.media_title != 'TV' }}"
+    - condition: template
       value_template: "{{ trigger.from_state.attributes.media_title != trigger.to_state.attributes.media_title }}"
 action:
   service: mqtt.publish
   data_template:
     topic: "sonos/now_playing"
-    payload: "{{ trigger.to_state.attributes.media_title }}"
+    payload: "{{ as_timestamp(now()) | timestamp_custom('%Y-%m-%d %H:%M:%S') }} @ {{ trigger.entity_id | replace('media_player.', '') }}: {{ trigger.to_state.attributes.media_title }}"
