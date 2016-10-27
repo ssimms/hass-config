@@ -14,14 +14,14 @@ device_tracker: !include include/devices.yaml
 media_player:   !include include/media_players.yaml
 sensor:         !include include/sensors.yaml
 zone:           !include include/zones.yaml
-                          
+
 frontend:
 http:
 history:
 logbook:
 # discovery:
 # conversation:
-updater:
+# updater:
 
 apcupsd:
 sun:
