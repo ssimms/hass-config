@@ -1,4 +1,4 @@
-name: Family
+name: Family Room
 view: yes
 entities:
   - binary_sensor.ups_online
