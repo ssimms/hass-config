@@ -3,11 +3,11 @@ entities:
   light.aeotec_zw098_led_bulb_level_4_0:
     state: on
     brightness: 127
-    rgb_color: 255, 162, 78
+    rgb_color: [255, 162, 78]
     color_temp: 385
-  light.linear_lb60z1_dimmable_led_light_bulb_level_3_0:
-    state: on
-    brightness: 63
+  # light.linear_lb60z1_dimmable_led_light_bulb_level_3_0:
+  #   state: on
+  #   brightness: 63
   light.linear_lb60z1_dimmable_led_light_bulb_level_2_0:
     state: on
     brightness: 63
@@ -21,7 +21,7 @@ entities:
     color_temp: 385
   light.office_accent:
     state: on
-    brightness: 127
+    brightness: 192
     color_temp: 385
-    rgb_color: 199, 152, 83
-    xy_color: 0.4681, 0.4123
+    rgb_color: [199, 152, 83]
+    xy_color: [0.4681, 0.4123]
