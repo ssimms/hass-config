@@ -8,3 +8,9 @@
   longitude: -72.33185
   radius: 50
   icon: mdi:church
+
+- name: Barn
+  latitude: !secret barn_latitude
+  longitude: !secret barn_longitude
+  radius: 200
+  icon: mdi:shovel
