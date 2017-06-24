@@ -26,5 +26,5 @@ foreach my $dir (@dirs) {
     `rsync -aqt --delete combined_config/$dir ~hass/.homeassistant`;
 }
 
-#`sudo systemctl restart home-assistant\@hass`;
+`sudo systemctl restart home-assistant\@hass`;
 `rm -rf combined_config`;
