@@ -36,7 +36,7 @@ binary_sensor:
 
 light:
   platform: hue
-  host: 192.168.16.161
+  host: 192.168.16.128
 
 mqtt:
   broker:   127.0.0.1
