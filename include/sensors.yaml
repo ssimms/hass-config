@@ -48,3 +48,9 @@
   name: Exchange Rate
   base: USD
   target: CAD
+
+- platform: command_line
+  name: SSL Expires
+  unit_of_measurement: days
+  scan_interval: 10800
+  command: !secret ssl_check_command
