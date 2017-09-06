@@ -1,14 +1,10 @@
 name: office_relax
 entities:
-  light.aeotec_zw098_led_bulb_level_4_0:
+  light.aeotec_zw098_led_bulb_level:
     state: on
     brightness: 127
     rgb_color: [255, 162, 78]
-    color_temp: 385
-  # light.linear_lb60z1_dimmable_led_light_bulb_level_3_0:
-  #   state: on
-  #   brightness: 63
-  light.linear_lb60z1_dimmable_led_light_bulb_level_2_0:
+  light.linear_lb60z1_dimmable_led_light_bulb_level:
     state: on
     brightness: 63
   light.office_left_bookshelf:
@@ -22,6 +18,4 @@ entities:
   light.office_accent:
     state: on
     brightness: 192
-    color_temp: 385
     rgb_color: [199, 152, 83]
-    xy_color: [0.4681, 0.4123]

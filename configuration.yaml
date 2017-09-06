@@ -27,6 +27,9 @@ logbook:
 # conversation:
 # updater:
 
+recorder:
+  purge_days: 120
+
 apcupsd:
 sun:
 

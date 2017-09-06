@@ -6,11 +6,11 @@ entities:
     state: off
   light.office_right_bookshelf:
     state: off
-  light.aeotec_zw098_led_bulb_level_4_0:
+  light.aeotec_zw098_led_bulb_level:
     state: off
-  light.linear_lb60z1_dimmable_led_light_bulb_level_3_0:
+  light.linear_lb60z1_dimmable_led_light_bulb_level:
     state: off
-  light.linear_lb60z1_dimmable_led_light_bulb_level_2_0:
+  light.linear_lb60z1_dimmable_led_light_bulb_level_2:
     state: off
-  switch.ge_12721_lighting_control_duplex_receptacle_switch_8_0:
+  switch.ge_12721_lighting_control_duplex_receptacle_switch:
     state: off

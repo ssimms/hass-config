@@ -11,13 +11,8 @@ entities:
   light.office_accent:
     state: on
     brightness: 255
-    color_temp: 397
     rgb_color: [255, 194, 105]
-    xy_color: [0.4746, 0.4133]
-  # light.linear_lb60z1_dimmable_led_light_bulb_level_3_0:
-  #   state: on
-  #   brightness: 255
-  light.linear_lb60z1_dimmable_led_light_bulb_level_2_0:
+  light.linear_lb60z1_dimmable_led_light_bulb_level:
     state: on
     brightness: 255
   input_boolean.filter_maybe:

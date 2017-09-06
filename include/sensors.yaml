@@ -41,8 +41,8 @@
 #  password: !secret plex_password
 #  server: Simms
 
-- platform: time_date
-  display_options: time
+#- platform: time_date
+#  display_options: time
 
 - platform: fixer
   name: Exchange Rate

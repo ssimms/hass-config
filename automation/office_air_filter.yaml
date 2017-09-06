@@ -1,12 +1,16 @@
 alias: "Air filter unless alone"
 trigger:
-  platform: state
-  entity_id: input_boolean.filter_maybe
-  state: 'on'
+  platform: event
+  event_type: call_service
+  event_data:
+    service_data:
+      entity_id: scene.office_on
+    domain: scene
+    service: turn_on
 condition:
   condition: state
-  entity_id: device_tracker.christinephonehsd1nhcomcastnet
+  entity_id: device_tracker.owntrackschristine_owntrackschristinesimmscloud
   state: home
 action:
   service: switch.turn_on
-  entity_id: switch.ge_12721_lighting_control_duplex_receptacle_switch_8_0
+  entity_id: switch.ge_12721_lighting_control_duplex_receptacle_switch

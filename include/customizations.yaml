@@ -1,12 +1,12 @@
 # Lights
 
-light.linear_lb60z1_dimmable_led_light_bulb_level_2_0:
+light.linear_lb60z1_dimmable_led_light_bulb_level:
   friendly_name: Office Closet
 
-light.linear_lb60z1_dimmable_led_light_bulb_level_3_0:
+light.linear_lb60z1_dimmable_led_light_bulb_level_2:
   friendly_name: Office Task Lamp
 
-light.aeotec_zw098_led_bulb_level_4_0:
+light.aeotec_zw098_led_bulb_level:
   friendly_name: Office Floor Lamp
 
 # Media Players
@@ -50,6 +50,6 @@ sensor.dark_sky_humidity:
 
 # Switches
 
-switch.ge_12721_lighting_control_duplex_receptacle_switch_8_0:
+switch.ge_12721_lighting_control_duplex_receptacle_switch:
   friendly_name: Air Filter
   icon: mdi:weather-windy

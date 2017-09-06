@@ -1,4 +1,4 @@
-filter_maybe:
-  name: Air Filter (if needed)
-  initial: off
-  icon: mdi:weather-windy
+#filter_maybe:
+#  name: Air Filter (if needed)
+#  initial: off
+#  icon: mdi:weather-windy
