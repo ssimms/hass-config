@@ -15,5 +15,3 @@ entities:
   light.linear_lb60z1_dimmable_led_light_bulb_level:
     state: on
     brightness: 255
-  input_boolean.filter_maybe:
-    state: on

@@ -3,7 +3,7 @@ trigger:
   platform: event
   event_type: zwave.scene_activated
   event_data:
-    object_id: __9
+    object_id: _
     scene_id: 4
 action:
   service: light.toggle
