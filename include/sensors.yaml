@@ -36,10 +36,11 @@
     - timeleft
     - tonbatt
 
-- platform: plex
-  username: Steve Simms
-  password: !secret plex_password
-  server: Simms
+# Shows number of people watching/using Plex
+#- platform: plex
+#  username: Steve Simms
+#  password: !secret plex_password
+#  server: Simms
 
 - platform: time_date
   display_options: time

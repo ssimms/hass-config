@@ -27,7 +27,8 @@ logbook:
 # updater:
 
 recorder:
-  purge_days: 120
+  purge_interval: 1
+  purge_keep_days: 120
 
 apcupsd:
 sun:
